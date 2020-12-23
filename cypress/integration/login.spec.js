@@ -1,9 +1,8 @@
-context('Login', () => {
-  it('Realizar login com sucesso', () => {
-    cy.visit('login')
+import Login from '../support/pages/login'
 
-    cy.get('input[ng-model*=email]').type(Cypress.config().user.email)
-    cy.get('input[ng-model*=password]').type(Cypress.config().user.password)
-    cy.get('button.btn-primary').click()
-  })
+context('Login', () => {
+  it('Realizar login com sucesso', () => {})
+  Login.acessarLogin()
+  Login.preencherFormulario()
+  Login.submeterLogin()
 })

@@ -27,10 +27,10 @@
 Cypress.Commands.add('backgroundLogin', () => {
   cy.request({
     method: 'POST',
-    url: `${Cypress.condig().apiUrl}/users/login`,
+    url: `${Cypress.config().apiUrl}/users/login`,
     body: {
       user: {
-        email: 'agilizei-rcw@mail.com',
+        email: 'agilizei-rwc@mail.com',
         password: '12345678',
       },
     },
@@ -39,9 +39,9 @@ Cypress.Commands.add('backgroundLogin', () => {
     cy.log(loginResponse.body.user.token)
   })
 
-  cy.visit('/', {
-    onBeforeLoad: (win) => {
-      win.localstorage.setItem('jwtToken', loginResponse.body.user.token)
-    },
-  })
+  // cy.visit('/', {
+  //   onBeforeLoad: (win) => {
+  //     win.localstorage.setItem('jwtToken', loginResponse.body.user.token)
+  //   },
+  // })
 })
