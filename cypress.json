@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
     "baseUrl": "http://demo.realworld.io/#",
+    "apiUrl":  "http://conduit.productionready.io/api/",
     "watchForFileChanges": true,
     "experimentalSourceRewriting": true,
     "viewportWidth": 1536,
@@ -8,5 +9,9 @@
     "reporter": "cypress-multi-reporters",
     "reporterOptions": {
         "configFile": "reporter-config.json"
+    },
+    "user":{
+      "email": "agilizei-rwc@mail.com",
+      "password": "12345678"
     }
 }

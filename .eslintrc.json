@@ -8,7 +8,6 @@
         "plugin:cypress/recommended",
         "prettier"
     ],
-    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 12,
         "sourceType": "module"
