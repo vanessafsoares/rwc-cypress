@@ -8,5 +8,6 @@ context('Publicação', () => {
   it('Criar uma nova publicação', () => {
     Articles.preencherFormulario()
     Articles.submeterPublicacao()
+    Articles.verificaPublicacao()
   })
 })

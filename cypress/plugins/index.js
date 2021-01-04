@@ -13,7 +13,7 @@
 // the project's config changing)
 
 /**
- * @type {Cypress.PluginConfig}
+//  * @type {Cypress.PluginConfig}
  */
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits

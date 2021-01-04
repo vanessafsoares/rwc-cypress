@@ -5,16 +5,15 @@
 
 <h1 align="center">
   <img alt="npm" src="https://img.shields.io/npm/v/cypress?label=cypress&logo=cypress&style=flat-square">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/vanessafsoares/automation-practice-cypress/CI?logo=github&style=flat-square">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanessafsoares/automation-practice-cypress?style=flat-square">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vanessafsoares/automation-practice-cypress?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanessafsoares/rwc-cypress?style=flat-square">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vanessafsoares/rwc-cypress?style=flat-square">
  </h1>
 
-<p align="center">
+<!-- <p align="center">
   <kbd>
     <img width="850" style="border-radius: 5px" height="550" src="https://imgur.com/l6zT6eT.gif" alt="Intro">
   </kbd>
-</p>
+</p> -->
 
 ## Começando 💻
 
@@ -37,20 +36,17 @@ $ npm install
 # Execute a aplicação no navegador
 $ npm run cy:open
 
-# Execute a aplicação em modo headless
+# Execute a aplicação em modo headless com electron, chrome, firefox ou edge
 $ npm run cy:run
-
-# Execute a aplicação em modo headless
-$ npm run cy:run
+$ npm run cy:chrome
+$ npm run cy:firefox
+$ npm run cy:edge
 ```
-
-
  ## Cenários :white_check_mark:
 
 - [x] Cadastro de usuário
 - [x] Login
 - [x] Criação de artigos
-
 
  ## Stack
  <p align="center">

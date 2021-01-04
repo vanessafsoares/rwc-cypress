@@ -23,7 +23,6 @@
       "cypress/no-force": "warn",
       "cypress/no-async-tests": "error",
       "prettier/prettier": "error",
-      "no-console": "off",
-      "eslint-disable": "import/prefer-default-export"
+      "no-console": "off"
     }
 }

@@ -1,7 +1,7 @@
 const faker = require('faker')
 
 context('Cadastro', () => {
-  it('Efetuar cadastro de usuario', () => {
+  it.only('Efetuar cadastro de usuario', () => {
     cy.visit('register')
 
     cy.get('input[ng-model*=username]').type(

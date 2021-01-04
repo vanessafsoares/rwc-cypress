@@ -1,17 +1,13 @@
 {
-    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
-    "baseUrl": "http://demo.realworld.io/#/",
-    "apiUrl":  "http://conduit.productionready.io/api",
-    "watchForFileChanges": true,
-    "experimentalSourceRewriting": true,
-    "viewportWidth": 1536,
-    "viewportHeight": 960,
-    "reporter": "cypress-multi-reporters",
-    "reporterOptions": {
-        "configFile": "reporter-config.json"
-    },
-    "user":{
-      "email": "agilizei-rwc@mail.com",
-      "password": "12345678"
-    }
+  "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+  "baseUrl": "https://demo.realworld.io/#/",
+  "apiUrl": "https://conduit.productionready.io/api/",
+  "user": {
+    "email": "winona.hagenes49@hotmail.com",
+    "password": "TesteQA@2020"
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+      "configFile": "reporter-config.json"
+  }
 }
