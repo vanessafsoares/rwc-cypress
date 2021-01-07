@@ -25,3 +25,11 @@ steps:
 - script: npm run cy:chrome
   displayName: 'Run testes on Chrome'
   continueOnError: true
+
+- task: PublishTestResults@2
+  displayName: 'Exibindo resultado dos testes'
+  inputs:
+    testResultsFiles: '**/junit-*.xml'
+    mergeTestResults: true,
+    testRunTitle: 'Rwc Cypress'
+  continueOnError: true

@@ -3,7 +3,7 @@ cypress/.DS_Store
 node_modules/
 cypress/videos/
 cypress/screenshots
-mochawesome-report/
+cypress/reports
 index.json
 *.txt
 package-lock.json
