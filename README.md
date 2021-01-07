@@ -9,11 +9,11 @@
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vanessafsoares/rwc-cypress?style=flat-square">
  </h1>
 
-<!-- <p align="center">
+ <p align="center">
   <kbd>
-    <img width="850" style="border-radius: 5px" height="550" src="https://imgur.com/l6zT6eT.gif" alt="Intro">
+    <img width="850" style="border-radius: 5px" height="550" src="https://imgur.com/MGLRVZo" alt="Intro">
   </kbd>
-</p> -->
+</p>
 
 ## Começando 💻
 
@@ -54,5 +54,5 @@ $ npm run cy:edge
   <img src="https://img.shields.io/badge/cypress-000000?style=for-the-badge&logo=cypress"/>
   <img src="https://img.shields.io/badge/mocha-000000?style=for-the-badge&logo=mocha"/>
   <img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint"/>
-  <img src="https://img.shields.io/badge/actions-000000?style=for-the-badge&logo=github-actions"/>
+  <img src="https://img.shields.io/badge/Azure-4287f5?style=for-the-badge&logo=azure-devops"/>
  </p>
