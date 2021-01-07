@@ -1,7 +1,7 @@
 .DS_Store
 cypress/.DS_Store
 node_modules/
-cypress/videos/
+cypress/videos
 cypress/screenshots
 cypress/reports
 index.json
