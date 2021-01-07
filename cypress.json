@@ -6,8 +6,8 @@
     "email": "winona.hagenes49@hotmail.com",
     "password": "TesteQA@2020"
   },
-  "reporter": "cypress-multi-reporters",
+  "reporter": "junit",
   "reporterOptions": {
-      "configFile": "reporter-config.json"
+      "mochaFile": "cypress/reports/junit-[hash].xml"
   }
 }
