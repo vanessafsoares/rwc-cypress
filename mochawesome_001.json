@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-01-07T18:07:27.113Z",
-    "end": "2021-01-07T18:07:28.860Z",
-    "duration": 1747,
+    "start": "2021-01-07T18:12:59.820Z",
+    "end": "2021-01-07T18:13:01.386Z",
+    "duration": 1566,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7be2ecb8-e8a9-4606-b098-f10ce4bbe5f7",
+      "uuid": "d4a40297-a144-42ad-a933-59d3356148a8",
       "title": "",
       "fullFile": "cypress/integration/login.spec.js",
       "file": "cypress/integration/login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "db7606fb-a941-447d-9f0b-f573582b877f",
+          "uuid": "f42eb2b5-e014-427b-9dea-e3768c9cac95",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Realizar login com sucesso",
               "fullTitle": "Login Realizar login com sucesso",
               "timedOut": null,
-              "duration": 1671,
+              "duration": 1549,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_login[\"default\"].acessarLogin();\n_login[\"default\"].preencherFormulario();\n_login[\"default\"].submeterLogin();",
               "err": {},
-              "uuid": "187832b3-b708-4f9f-9616-e25b1b2eb45f",
-              "parentUUID": "db7606fb-a941-447d-9f0b-f573582b877f",
+              "uuid": "9d366314-034e-43da-8921-1636f92c9509",
+              "parentUUID": "f42eb2b5-e014-427b-9dea-e3768c9cac95",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "187832b3-b708-4f9f-9616-e25b1b2eb45f"
+            "9d366314-034e-43da-8921-1636f92c9509"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1671,
+          "duration": 1549,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

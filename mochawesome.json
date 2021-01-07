@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-01-07T18:07:12.364Z",
-    "end": "2021-01-07T18:07:21.117Z",
-    "duration": 8753,
+    "start": "2021-01-07T18:12:47.906Z",
+    "end": "2021-01-07T18:12:55.090Z",
+    "duration": 7184,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "29a8311e-45ee-4d64-a5f0-759e5b8c2c4e",
+      "uuid": "b7a8d0e7-2cde-4a24-8888-6ed4e94395ef",
       "title": "",
       "fullFile": "cypress/integration/article.spec.js",
       "file": "cypress/integration/article.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f4a37f8c-f8a2-4639-bd24-5110aff714e0",
+          "uuid": "ece9733b-a747-4561-ad04-ab9ef5254e4d",
           "title": "Publicação",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Criar uma nova publicação",
               "fullTitle": "Publicação Criar uma nova publicação",
               "timedOut": null,
-              "duration": 8732,
+              "duration": 7143,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_articles[\"default\"].preencherFormulario();\n_articles[\"default\"].submeterPublicacao();\n_articles[\"default\"].verificaPublicacao();",
               "err": {},
-              "uuid": "74886e7a-4b5d-462d-9003-d3a7ecea2041",
-              "parentUUID": "f4a37f8c-f8a2-4639-bd24-5110aff714e0",
+              "uuid": "42a2962d-9533-406b-b6b9-23c654c5793f",
+              "parentUUID": "ece9733b-a747-4561-ad04-ab9ef5254e4d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "74886e7a-4b5d-462d-9003-d3a7ecea2041"
+            "42a2962d-9533-406b-b6b9-23c654c5793f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8732,
+          "duration": 7143,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
