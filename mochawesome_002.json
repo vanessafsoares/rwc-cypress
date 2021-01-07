@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-01-07T18:13:08.153Z",
-    "end": "2021-01-07T18:13:09.838Z",
-    "duration": 1685,
+    "start": "2021-01-07T18:37:47.417Z",
+    "end": "2021-01-07T18:37:49.222Z",
+    "duration": 1805,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "31d7d4bd-a841-49f1-901a-6f097b6ece41",
+      "uuid": "9d2a5ec7-42fa-4e7a-ab13-48b5943458cf",
       "title": "",
       "fullFile": "cypress/integration/register.spec.js",
       "file": "cypress/integration/register.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c9b17992-9aa4-4bc1-a87e-efe32a470f18",
+          "uuid": "160f8fc0-48f7-4b96-bdb3-607a03060655",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Efetuar cadastro de usuario",
               "fullTitle": "Cadastro Efetuar cadastro de usuario",
               "timedOut": null,
-              "duration": 1663,
+              "duration": 1812,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('register');\ncy.get('input[ng-model*=username]').type(faker.name.firstName() + faker.name.lastName());\ncy.get('input[ng-model*=email]').type(faker.internet.email());\ncy.get('input[ng-model*=password]').type('TesteQA@2020');\ncy.get('button.btn-primary').click();",
               "err": {},
-              "uuid": "920f686b-e613-40b0-8a18-a0c042aaba36",
-              "parentUUID": "c9b17992-9aa4-4bc1-a87e-efe32a470f18",
+              "uuid": "f4d77213-e5a0-4dc1-b5c6-bdac88b946a4",
+              "parentUUID": "160f8fc0-48f7-4b96-bdb3-607a03060655",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "920f686b-e613-40b0-8a18-a0c042aaba36"
+            "f4d77213-e5a0-4dc1-b5c6-bdac88b946a4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1663,
+          "duration": 1812,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
