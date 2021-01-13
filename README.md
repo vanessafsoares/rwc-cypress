@@ -9,6 +9,12 @@
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vanessafsoares/rwc-cypress?style=flat-square">
  </h1>
 
+<p align="center">
+  <kbd>
+    <img width="850" style="border-radius: 5px" height="550" src="https://imgur.com/7BWhloN.gif" alt="Intro">
+  </kbd>
+</p>
+
 ## Começando 💻
 
 ### Pré-requisitos ⚙️ ###
