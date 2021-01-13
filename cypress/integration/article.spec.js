@@ -1,7 +1,9 @@
 import Articles from '../support/pages/articles'
+import Routes from '../support/routes'
 
 context('Publicação', () => {
   beforeEach(() => {
+    Routes.initArticles()
     cy.backgroundLogin()
     Articles.acessarFormulario()
   })

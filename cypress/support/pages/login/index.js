@@ -1,4 +1,6 @@
 /* eslint-disable class-methods-use-this */
+import Routes from '../../routes'
+
 const el = require('./elements').ELEMENTS
 
 class Login {
@@ -14,6 +16,18 @@ class Login {
 
   submeterLogin() {
     cy.get(el.buttonLogin).click()
+  }
+
+  verificaLogin() {
+    cy.wait(`@${Routes.as.postLogin}`).then((postLoginResponse) => {
+      expect(postLoginResponse.status).to.eq(200)
+    })
+    cy.wait(`@${Routes.as.getTags}`).then((getTagsResponse) => {
+      expect(getTagsResponse.status).to.eq(200)
+    })
+    cy.wait(`@${Routes.as.getArticles}`).then((getArticlesResponse) => {
+      expect(getArticlesResponse.status).to.eq(200)
+    })
   }
 }
 

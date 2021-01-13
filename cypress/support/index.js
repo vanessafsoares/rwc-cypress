@@ -26,6 +26,10 @@ Cypress.Commands.add('backgroundLogin', () => {
   })
 })
 
-before(() => {
-  Routes.init()
-})
+// tratamento de uncaught:exception
+Cypress.on('uncaught:exception', () => false)
+
+// before(() => {
+//   Routes.initArticles()
+//   Routes.initLogin()
+// })

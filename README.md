@@ -31,10 +31,10 @@ $ npm install
 $ npm run cy:open
 
 # Execute a aplicação em modo headless com electron, chrome, firefox ou edge
-$ npm run cy:run
-$ npm run cy:chrome
-$ npm run cy:firefox
-$ npm run cy:edge
+$ npm run cy:run:electron
+$ npm run cy:run:chrome
+$ npm run cy:run:firefox
+$ npm run cy:run:edge
 ```
  ## Cenários :white_check_mark:
 
