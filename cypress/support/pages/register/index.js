@@ -11,9 +11,15 @@ class Register {
     cy.get(el.inputName).type(faker.name.firstName() + faker.name.lastName())
   }
 
-  // cy.get('input[ng-model*=email]').type(faker.internet.email())
+  preencherEmail() {
+    cy.get(el.inputEmail.type(faker.internet.email()))
+  }
 
-  // cy.get('input[ng-model*=password]').type('TesteQA@2020')
+  preencherSenha() {
+    cy.get('input[ng-model*=password]').type('TesteQA@2020')
+  }
 
-  // cy.get('button.btn-primary').click()
+  submitRegister() {
+    cy.get('button.btn-primary').click()
+  }
 }
