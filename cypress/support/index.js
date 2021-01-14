@@ -1,5 +1,3 @@
-import Routes from './routes'
-
 Cypress.Commands.add('backgroundLogin', () => {
   // PROCESSO DE LOGIN EM BACKGROUND
   // 1. realizar uma requisição do tipo POST com email e senha
@@ -28,8 +26,3 @@ Cypress.Commands.add('backgroundLogin', () => {
 
 // tratamento de uncaught:exception
 Cypress.on('uncaught:exception', () => false)
-
-// before(() => {
-//   Routes.initArticles()
-//   Routes.initLogin()
-// })

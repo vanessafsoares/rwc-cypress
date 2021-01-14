@@ -1,5 +1,6 @@
-import Routes from '../../routes'
-
+/* eslint-disable class-methods-use-this */
+// import Routes from '../../routes'
+const faker = require('faker')
 const el = require('./elements').ELEMENTS
 
 class Register {
