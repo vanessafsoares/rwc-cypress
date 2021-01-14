@@ -21,7 +21,7 @@
     "cy:run:edge": "npx cypress run --browser edge --headless",
     "report:merge": "mochawesome-merge > index.json",
     "report:mocha": "marge index.json",
-    "report:clean": "rimraf cypress/videos cypress/reports",
+    "report:clean": "rimraf cypress/videos cypress/reports cypress/screenshots",
     "lint": "npx eslint ./cypress",
     "lint:fix": "npx eslint ./cypress --fix"
   },
