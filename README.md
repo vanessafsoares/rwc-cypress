@@ -7,6 +7,7 @@
   <img alt="npm" src="https://img.shields.io/npm/v/cypress?label=cypress&logo=cypress&style=flat-square">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanessafsoares/rwc-cypress?style=flat-square">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vanessafsoares/rwc-cypress?style=flat-square">
+  <img alt="Azure Pipelines" src="https://img.shields.io/azure-devops/tests/vanessafsoares0624/Real-World-Conduit-Tests/1?label=tests&style=flat-square">
  </h1>
 
 <p align="center">
