@@ -12,7 +12,7 @@
 
 <p align="center">
   <kbd>
-    <img width="850" style="border-radius: 5px" height="550" src="https://imgur.com/7BWhloN.gif" alt="Intro">
+    <img width="1050" style="border-radius: 5px" height="550" src="https://github.com/vanessafsoares/rwc-cypress/blob/main/gh-images/articlespecjs.gif" alt="Intro">
   </kbd>
 </p>
 
